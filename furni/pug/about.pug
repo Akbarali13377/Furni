@@ -1,0 +1,238 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='author' content='Untree.co')
+  link(rel='shortcut icon' href='../../assets/images/favicon.png')
+  meta(name='description' content='')
+  meta(name='keywords' content='bootstrap, bootstrap4, bootstrap5')
+  meta(name='keywords' content='furni, furniture')
+  meta(name='keywords' content='github, cloudfire, netlifyy')
+  // Bootstrap CSS
+  link(href='../../css/bootstrap.min.css' rel='stylesheet')
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' rel='stylesheet')
+  link(href='../../css/tiny-slider.css' rel='stylesheet')
+  link(href='../../css/style.css' rel='stylesheet')
+  title
+    | About
+// Start Header/Navigation
+
+nav.custom-navbar.navbar.navbar.navbar-expand-md.navbar-dark.bg-dark(arial-label='Furni navigation bar')
+  .container
+    a.navbar-brand(href='index.html')
+      | Furni
+      span .
+    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarsFurni' aria-controls='navbarsFurni' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarsFurni.collapse.navbar-collapse
+      ul.custom-navbar-nav.navbar-nav.ms-auto.mb-2.mb-md-0
+        li.nav-item
+          a.nav-link(href='./Home.html') Home
+        li
+          a.nav-link(href='./shop.html') Shop
+        li.active
+          a.nav-link(href='./about.html') About us
+        li
+          a.nav-link(href='./services.html') Services
+        li
+          a.nav-link(href='./blog.html') Blog
+        li
+          a.nav-link(href='./contact.html') Contact us
+      ul.custom-navbar-cta.navbar-nav.mb-2.mb-md-0.ms-5
+        li
+          a.nav-link(href='#')
+            img(src='../../assets/images/user.svg')
+        li
+          a.nav-link(href='cart.html')
+            img(src='../../assets/images/cart.svg')
+// End Header/Navigation
+// Start Hero Section
+.hero
+  .container
+    .row.justify-content-between
+      .col-lg-5
+        .intro-excerpt
+          h1 About Us
+          p.mb-4
+            | Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+          p
+            a.btn.btn-secondary.me-2(href='') Shop Now
+            a.btn.btn-white-outline(href='#') Explore
+      .col-lg-7
+        .hero-img-wrap
+          img.img-fluid(src='../../assets/images/couch.png')
+// End Hero Section
+// Start Why Choose Us Section
+.why-choose-section
+  .container
+    .row.justify-content-between.align-items-center
+      .col-lg-6
+        h2.section-title Why Choose Us
+        p
+          | Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+        .row.my-5
+          .col-6.col-md-6
+            .feature
+              .icon
+                img.imf-fluid(src='../../assets/images/truck.svg' alt='Image')
+              h3 Fast &amp; Free Shipping
+              p
+                | Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+          .col-6.col-md-6
+            .feature
+              .icon
+                img.imf-fluid(src='../../assets/images/bag.svg' alt='Image')
+              h3 Easy to Shop
+              p
+                | Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+          .col-6.col-md-6
+            .feature
+              .icon
+                img.imf-fluid(src='../../assets/images/support.svg' alt='Image')
+              h3 24/7 Support
+              p
+                | Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+          .col-6.col-md-6
+            .feature
+              .icon
+                img.imf-fluid(src='../../assets/images/return.svg' alt='Image')
+              h3 Hassle Free Returns
+              p
+                | Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+      .col-lg-5
+        .img-wrap
+          img.img-fluid(src='../../assets/images/why-choose-us-img.jpg' alt='Image')
+// End Why Choose Us Section
+// Start Team Section
+.untree_co-section
+  .container
+    .row.mb-5
+      .col-lg-5.mx-auto.text-center
+        h2.section-title Our Team
+    .row
+      // Start Column 1
+      .col-12.col-md-6.col-lg-3.mb-5.mb-md-0
+        img.img-fluid.mb-5(src='../../assets/images/person_1.jpg')
+        h3(clas='')
+          a(href='#')
+            span Lawson
+            |  Arnold
+        span.d-block.position.mb-4 CEO, Founder, Atty.
+        p
+          | Separated they live in.
+          | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+        p.mb-0
+          a.more.dark(href='#')
+            | Learn More 
+            span.icon-arrow_forward
+      // End Column 1
+      // Start Column 2
+      .col-12.col-md-6.col-lg-3.mb-5.mb-md-0
+        img.img-fluid.mb-5(src='../../assets/images/person_2.jpg')
+        h3(clas='')
+          a(href='#')
+            span Jeremy
+            |  Walker
+        span.d-block.position.mb-4 CEO, Founder, Atty.
+        p
+          | Separated they live in.
+          | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+        p.mb-0
+          a.more.dark(href='#')
+            | Learn More 
+            span.icon-arrow_forward
+      // End Column 2
+      // Start Column 3
+      .col-12.col-md-6.col-lg-3.mb-5.mb-md-0
+        img.img-fluid.mb-5(src='../../assets/images/person_3.jpg')
+        h3(clas='')
+          a(href='#')
+            span Patrik
+            |  White
+        span.d-block.position.mb-4 CEO, Founder, Atty.
+        p
+          | Separated they live in.
+          | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+        p.mb-0
+          a.more.dark(href='#')
+            | Learn More 
+            span.icon-arrow_forward
+      // End Column 3
+      // Start Column 4
+      .col-12.col-md-6.col-lg-3.mb-5.mb-md-0
+        img.img-fluid.mb-5(src='../../assets/images/person_4.jpg')
+        h3(clas='')
+          a(href='#')
+            span Kathryn
+            |  Ryan
+        span.d-block.position.mb-4 CEO, Founder, Atty.
+        p
+          | Separated they live in.
+          | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+        p.mb-0
+          a.more.dark(href='#')
+            | Learn More 
+            span.icon-arrow_forward
+      // End Column 4
+// End Team Section
+// Start Testimonial Slider
+.testimonial-section.before-footer-section
+  .container
+    .row
+      .col-lg-7.mx-auto.text-center
+        h2.section-title Testimonials
+    .row.justify-content-center
+      .col-lg-12
+        .testimonial-slider-wrap.text-center
+          #testimonial-nav
+            span.prev(data-controls='prev')
+              span.fa.fa-chevron-left
+            span.next(data-controls='next')
+              span.fa.fa-chevron-right
+          .testimonial-slider
+            .item
+              .row.justify-content-center
+                .col-lg-8.mx-auto
+                  .testimonial-block.text-center
+                    blockquote.mb-5
+                      p
+                        | &ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;
+                    .author-info
+                      .author-pic
+                        img.img-fluid(src='../../assets/images/person-1.png' alt='Maria Jones')
+                      h3.font-weight-bold Maria Jones
+                      span.position.d-block.mb-3 CEO, Co-Founder, XYZ Inc.
+            // END item
+            .item
+              .row.justify-content-center
+                .col-lg-8.mx-auto
+                  .testimonial-block.text-center
+                    blockquote.mb-5
+                      p
+                        | &ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;
+                    .author-info
+                      .author-pic
+                        img.img-fluid(src='../../assets/images/person-1.png' alt='Maria Jones')
+                      h3.font-weight-bold Maria Jones
+                      span.position.d-block.mb-3 CEO, Co-Founder, XYZ Inc.
+            // END item
+            .item
+              .row.justify-content-center
+                .col-lg-8.mx-auto
+                  .testimonial-block.text-center
+                    blockquote.mb-5
+                      p
+                        | &ldquo;Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.&rdquo;
+                    .author-info
+                      .author-pic
+                        img.img-fluid(src='../../assets/images/person-1.png' alt='Maria Jones')
+                      h3.font-weight-bold Maria Jones
+                      span.position.d-block.mb-3 CEO, Co-Founder, XYZ Inc.
+            // END item
+// End Testimonial Slider
+// Start Footer Section
+include footer
+// End Footer Section
+script(src='../../js/bootstrap.bundle.min.js')
+script(src='../../js/tiny-slider.js')
+script(src='../js/custom.js')
